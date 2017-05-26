@@ -11,5 +11,6 @@ ARG p=admin
 RUN groupadd -g ${gid} ${g}
 RUN useradd -d /home/${u} -u ${uid} -g ${g} -s /bin/bash ${u} 
 
-CMD ["/bin/bash"]
+# CMS ["/bin/bash"]
+CMD ["/usr/sbin/init"]
 
