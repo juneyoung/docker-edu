@@ -8,5 +8,17 @@ MAY2017
 - `tomcat` : Dockerfile `tomcat` 자동 설치 버전
 - `autorun` : Dockerfile `tomcat` 자동 설치 후 지정포트로 WAS 구동
 
+### 빌드 배포
+```
+# Dockerfile 이 있는 폴더에서
+$> docker build -t ${TAGNAME} .
+```
+
+### `clean-docker.sh` 사용하기
+`clean-docker.sh` 는 한번에 `동일한 이름을 가진` docker-container 와 docker-image 를 지워주는 스크립트
+```
+$> clean-docker ${CONTAINER-IMAGE NAME}
+```
+
 ### History
 - 26MAY2017 : 초안작성
