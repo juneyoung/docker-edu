@@ -1,0 +1,53 @@
+{
+	"questions" : [
+		{
+			"id" : 1
+			, "question" : "다음 중 docker run 의 옵션이 아닌 것은?"
+			, "type" : "single"
+			, "answers" : [
+				{	
+					"order" : 1
+					, "desc" : "-d, --detach"
+
+				}, {
+					"order" : 2
+					, "desc" : "-p, --port"
+
+				}, {
+					"order" : 3
+					, "desc" : "--name"
+				}, {
+					"order" : 4
+					, "desc" : "--build-arg"
+				}	
+			]
+			, "correct" : "4" 
+		}
+
+
+		, {
+			"id" : 2
+			, "question" : "다음 중 docker run 의 옵션이 아닌 것은?"
+			, "type" : "single"
+			, "answers" : [
+				{	
+					"order" : 1
+					, "desc" : "-d, --detach"
+
+				}, {
+					"order" : 2
+					, "desc" : "-p, --port"
+
+				}, {
+					"order" : 3
+					, "desc" : "--name"
+				}, {
+					"order" : 4
+					, "desc" : "--build-arg"
+				}	
+			]
+			, "correct" : "4" 
+		}
+
+	]
+}

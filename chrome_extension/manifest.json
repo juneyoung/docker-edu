@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "DKL Test",
+  "description": "Online test for DKL(Docker Knowledge Level)",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "./resources/images/icons/docker-icon-origin.png",
+    "default_popup": "./html/index.html",
+    "default_title": "DKL Test MAY 2017"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
