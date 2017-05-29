@@ -17,7 +17,7 @@ $> docker build -t ${TAGNAME} .
 ### `clean-docker.sh` 사용하기
 `clean-docker.sh` 는 한번에 `동일한 이름을 가진` docker-container 와 docker-image 를 지워주는 스크립트
 ```
-$> clean-docker ${CONTAINER-IMAGE NAME}
+$> sh clean-docker.sh ${CONTAINER-IMAGE NAME}
 ```
 
 ### `autobuild-docker.sh` 사용하기
